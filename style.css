@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: rgb(34, 34, 34);
+  color: white;
+  font-family: 'Poppins', serif;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px 45px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px 0px;
+}
+
+header .titulo{
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+}
+
+header .titulo h1{
+    font-weight: 200;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+header nav a:hover{
+    color: rgb(132, 14, 201);
+}
+
+#new-cont{
+    border: 2px solid rgb(132, 14, 201);
+    width: 100%;
+    padding: 15px 40px;
+    border-radius: 20px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+#new-cont:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+main aside h2{
+    font-size: 52px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+main aside h2 span{
+    color: rgb(132, 14, 201);
+}
+
+main aside p{
+    text-align: justify;
+    margin-bottom: 20px;
+    width: 460px;
+}
+
+main aside form{
+    width: 70%;
+}
+
+main aside form .input-block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 55px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 18px 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+main aside form .input-block label{
+    position: absolute;
+    top: 3px;
+    left: 24px;
+    color: rgb(103, 12, 156);
+    font-size: 14px;
+    font-weight: 500;
+    display: none;
+}
+
+main aside form .input-block input{
+    background-color: transparent;
+    border: 0;
+    color: rgb(132, 14, 201);
+    font-size: 16px;
+    outline: none;
+}
+
+main aside form .btn-enviar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+}
+
+main aside form .btn-enviar button{
+    width: 55%;
+    height: 55px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+main aside form .btn-enviar button:hover{
+    opacity: 0.9;
+}
