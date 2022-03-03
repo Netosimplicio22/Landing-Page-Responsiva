@@ -1,6 +1,6 @@
 function event1(){
     var input = document.getElementById("nome")
-    var lab = document.getElementById("label1")
+    var lab = document.getElementById("label")
 
     if(input.value.length >= 1){
         lab.style.display = "block"
@@ -10,10 +10,10 @@ function event1(){
 
 function desevent1(){
     var input = document.getElementById("nome")
-    var lab = document.getElementById("label1")
+    var label = document.getElementById("label")
 
     if(input.value.length == 0){
-        lab.style.display = "none"
+        label.style.display = "none"
         input.style.marginTop = "0px"
     }
 }
@@ -34,6 +34,6 @@ function desevent2(){
 
     if(input.value.length == 0){
         lab.style.display = "none"
-        input.style.marginTop = "0px"
+        input.style.marginTop = "20px"
     }
 }
